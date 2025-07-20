@@ -1,0 +1,4 @@
+import joblib
+
+# After training your model
+joblib.dump(model, "disease_model.pkl")
